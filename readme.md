@@ -2,7 +2,7 @@
 
 ### you can check the code by using some of the online mysql compiler
 
-## MYSSQL COMPILER => <a href="https://onecompiler.com/mysql" target="_blank">https://onecompiler.com/mysql</a>
+## MYSQL COMPILER => <a href="https://onecompiler.com/mysql" target="_blank">https://onecompiler.com/mysql</a>
 
 ## query 1
 <img src="./image/img1.png" alt="ans-1">
