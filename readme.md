@@ -5,9 +5,9 @@
 ## MYSQL COMPILER => <a href="https://onecompiler.com/mysql" target="_blank">https://onecompiler.com/mysql</a>
 
 ## query 1
-<img src="./image/img1.png" alt="ans-1">
+<img src="./image/img-1.png" alt="ans-1">
 
 
 ## query 2
-<img src="./image/img2.png" alt="ans-2">
+<img src="./image/img-2.png" alt="ans-2">
 
