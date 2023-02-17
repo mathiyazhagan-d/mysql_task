@@ -9,11 +9,12 @@ CREATE TABLE Movie (
    Reviewer TEXT Not Null
 );
 
+--change the video incase of url linked in that "https://images-na.ssl-images-amazon.com/images/I/71pieM7cJtL._AC_UL600_SR600,600_.jpg"
 -- -- insert
-INSERT INTO Movie VALUES ("https://images-na.ssl-images-amazon.com/images/I/71pieM7cJtL._AC_UL600_SR600,600_.jpg","Avatar 2", 'Romance', 'good judge of character','karthi');
-INSERT INTO Movie VALUES ("https://listoftodaymdb.com/listent/listimg//tamil/Kanchana-2/Kanchana-2-movie-stills-10.jpg","Kanchana 2", 'Action', 'good judge of character','vishal');
-INSERT INTO Movie VALUES ("https://images-na.ssl-images-amazon.com/images/I/71pieM7cJtL._AC_UL600_SR600,600_.jpg","Avatar 2", 'Action', 'i hate that movie','santhi');
-INSERT INTO Movie VALUES ("https://listoftodaymdb.com/listent/listimg//tamil/Kanchana-2/Kanchana-2-movie-stills-10.jpg","Kanchana 2", 'Horro', 'waste of time','surya');
+INSERT INTO Movie VALUES ("videos","Avatar 2", 'Romance', 'good judge of character','karthi');
+INSERT INTO Movie VALUES ("image","Kanchana 2", 'Action', 'good judge of character','vishal');
+INSERT INTO Movie VALUES ("videos","Avatar 2", 'Action', 'i hate that movie','santhi');
+INSERT INTO Movie VALUES ("image","Kanchana 2", 'Horro', 'waste of time','surya');
 
 -- create
 CREATE TABLE Artist (
@@ -32,6 +33,11 @@ INSERT INTO  Artist VALUES ( "kanchana 2" ,"sivakumar", 'Acting', 'father');
 
 
 -- fetch 
+
+--Some of the queries
+
 -- SELECT * FROM Artist;
 -- SELECT * FROM Movie;
+-- SELECT Movie_name,Review,Reviewer FROM Movie join Artist on Movie_name=movie
+-- where movie="Avatar 2";
 SELECT * FROM Movie join Artist on Movie_name=movie;
